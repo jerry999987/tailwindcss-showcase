@@ -1,0 +1,9 @@
+.active {
+    @apply rounded-[4px] text-gray-50 bg-[#2D2D2D];
+}
+.card-grident {
+   @apply pointer-events-none absolute w-[261px] h-[261px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gradient-to-b mix-blend-normal opacity-[0.15] blur-[60px]
+}
+.card{
+      @apply relative w-[24rem] md:w-[30rem] h-[21rem] border border-gray-700/50 rounded-lg flex flex-col justify-center items-center hover:border-gray-500
+}
